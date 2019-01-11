@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main"
+        tools:context="com.example.bhargavipatel.projectfinal3.MainActivityMap">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="346dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorAccent"
+            android:text="Enter Number Of Free Hours: " />
+
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:text="Food" />
+
+        <Button
+            android:id="@+id/point_of_interest"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:text="point_of_interest" />
+
+
+        <Button
+            android:id="@+id/sss"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:text="ATM" />
+
+        <Button
+            android:id="@+id/museum"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:text="museum" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>

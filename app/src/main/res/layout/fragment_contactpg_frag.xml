@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhargavipatel.projectfinal3.contactpg_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingBottom="25dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="60dp"
+        android:weightSum="7"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.example.bhargavipatel.projectfinal3.Contactpg">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="CONTACT INFORMATION"
+            android:textColor="#546372"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS:"
+            android:textColor="#546372"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TF-11, Suner Complex, Harinagar Cross Roads, \nVadodara, Gujarat 390021 "
+            android:textColor="#f9be15"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="1.3"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="120dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALL US ON:"
+            android:textAllCaps="false"
+            android:textColor="#546372"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="097252 52047"
+            android:textAllCaps="false"
+            android:textColor="#f9be15"
+            android:textSize="18dp"
+            android:layout_weight="1.4"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT US ON:\n\n"
+            android:textColor="#546372"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="0.1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://vertical22.com/"
+            android:textAlignment="viewStart"
+            android:textColorLink="#0000CD"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="351dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

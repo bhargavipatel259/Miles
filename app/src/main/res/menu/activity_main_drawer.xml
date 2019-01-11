@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/book_car"
+            android:icon="@drawable/ic_directions_car_24dp"
+            android:title="Book a Car" />
+
+        <item
+            android:id="@+id/city_tour"
+            android:icon="@drawable/ic_location_city_24dp"
+            android:title="City Tour" />
+        <item
+            android:id="@+id/add_car"
+            android:icon="@drawable/ic_add_circle_24dp"
+            android:title="Add Car" />
+        <item
+            android:id="@+id/remove_car"
+            android:icon="@drawable/ic_delete_24dp"
+            android:title="Remove Car" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_24dp"
+            android:title="Profile" />
+        
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_quick_contacts_dialer_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_error_outline_black_24dp"
+            android:title="Log Out" />
+
+    </group>
+</menu>

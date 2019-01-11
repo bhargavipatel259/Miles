@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.bhargavipatel.projectfinal3.payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Credit card number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"
+            android:textSize="25dp"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter card number "
+            android:ems="10"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView2"
+            android:id="@+id/editText2" />
+
+        <TextView
+            android:text="CVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="39dp"
+            android:textSize="25dp"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textSize="20dp"
+            android:hint="3 digit code"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Expires"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="25dp"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textSize="20dp"
+            android:hint="MM/YYYY"
+            android:id="@+id/editText3"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+            android:text="DONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="26dp"
+            android:id="@+id/button" />
+
+        <Button
+            android:text="CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_toRightOf="@+id/button"
+            android:layout_marginStart="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

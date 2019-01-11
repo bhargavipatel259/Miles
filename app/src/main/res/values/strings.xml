@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Projectfinal3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="imageview">ImageView</string>
+
+
+    <!-- Title string array -->
+    <string-array name="title">
+        <item>HONDA CITY</item>
+        <item>HONDA CITY</item>
+        <item>HONDA CITY</item>
+
+
+    </string-array>
+
+    <!-- Location string array -->
+    <string-array name="location">
+        <item>5 Seater</item>
+        <item>5 Seater</item>
+        <item>5 Seater</item>
+
+    </string-array>
+
+    <!-- Year string array -->
+    <string-array name="constructed_year">
+        <item>Rs 520 per 20 kms</item>
+        <item>Rs 520 per 20 kms</item>
+        <item>Rs 520 per 20 kms</item>
+
+    </string-array>
+
+    <string-array name="diesel">
+        <item>Rs 420 per 20 kms</item>
+        <item>Rs 420 per 20 kms</item>
+        <item>Rs 420 per 20 kms</item>
+
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_searchtab">searchtab</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_confirmbooking">confirmbooking</string>
+    <string name="title_activity_search_tab">search_tab</string>
+    <string name="title_activity_extra">extra</string>
+    <string name="title_activity_contactpg">Contactpg</string>
+
+
+    <string name="hyper_link"><a href="http://vertical22.com/">Click here</a> </string>
+
+</resources>
